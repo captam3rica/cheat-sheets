@@ -122,7 +122,7 @@ Allow CLI access to git repos after enabling 2FA
     $ echo "# [repo_name_here]" >> README.md
     $ git init
     $ git add README.md && git commit -m "first commit"
-    $ curl -u '[username]' https://api.github.com/user/repos -d '{"name":"[repo_name_here]"}'
+    $ curl -u '[username]' https://api.github.com/user/repos -d '{"name":"[repo_name_here]", "private":true/false}'
     $ git remote add origin https://github.com/[username]/[repo_name_here].git
     $ git push --set-upstream origin master
     
