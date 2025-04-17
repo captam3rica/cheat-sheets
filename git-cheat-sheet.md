@@ -201,8 +201,6 @@ remote changes: `$ git pull --rebase`
   
 	`git checkout -b dev`
 
-### Example flow
-
 Get the latest info from remote repo without merging anything locally. Then, list all remote branches. Finally, checkout the remote branch that you want to test locally.
 
 - Fetch the latest remote data
