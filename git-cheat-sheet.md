@@ -184,11 +184,22 @@ remote changes: `$ git pull --rebase`
 
 **Note**: make sure to tell `git` who you are.
 
--   **`dev > qa > review > prod`**
--   `git branch` - see current branch
--   `git branch dev` - create a new branch "dev"
--   `git checkout dev` - checkout the "dev" branch 
--   `git checkout -b dev` - create and move to branch "dev"
+- **`dev > qa > review > prod`**
+- see current branch
+
+	`git branch`
+
+- create a new branch "dev"
+
+	`git branch dev`
+
+- checkout the "dev" branch 
+
+	`git checkout dev`
+
+- create and move to branch "dev"
+  
+	`git checkout -b dev`
 
 ### Example flow
 
