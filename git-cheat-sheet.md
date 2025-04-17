@@ -205,9 +205,17 @@ remote changes: `$ git pull --rebase`
 
 Get the latest info from remote repo without merging anything locally. Then, list all remote branches. Finally, checkout the remote branch that you want to test locally.
 
-- Fetch the latest remote data - `git fetch origin`
-- List all remote branches - `git branch --remote`
-- Check out a remote branch - `git checkout -b my-local-branch origin/remote-branch`
+- Fetch the latest remote data
+
+  	`git fetch origin`
+  
+- List all remote branches
+
+	`git branch --remote`
+
+- Check out a remote branch
+
+	`git checkout -b my-local-branch origin/remote-branch`
 
 ## Merging 
 
