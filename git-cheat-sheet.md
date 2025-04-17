@@ -185,10 +185,18 @@ remote changes: `$ git pull --rebase`
 **Note**: make sure to tell `git` who you are.
 
 -   **`dev > qa > review > prod`**
--   `git branch`: see current branch
--   `git branch dev`: create a new branch "dev"
--   `git checkout dev`: checkout the "dev" branch 
--   `git checkout -b dev`: create and move to branch "dev"
+-   `git branch` - see current branch
+-   `git branch dev` - create a new branch "dev"
+-   `git checkout dev` - checkout the "dev" branch 
+-   `git checkout -b dev` - create and move to branch "dev"
+
+### Example flow
+
+Get the latest info from remote repo without merging anything locally. Then, list all remote branches. Finally, checkout the remote branch that you want to test locally.
+
+- Fetch the latest remote data - `git fetch origin`
+- List all remote branches - `git branch --remote`
+- Check out a remote branch - `git checkout -b my-local-branch origin/remote-branch`
 
 ## Merging 
 
