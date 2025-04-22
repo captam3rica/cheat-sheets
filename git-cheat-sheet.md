@@ -199,7 +199,7 @@ remote changes: `$ git pull --rebase`
 
 - create and move to branch "dev"
   
-	`git checkout -b dev` or `git switch -b dev`
+	`git checkout -b dev` or `git switch -c dev`
 
 - Get the latest info from remote repo without merging anything locally. Then, list all remote branches. Finally, checkout the remote branch that you want to test locally.
 
