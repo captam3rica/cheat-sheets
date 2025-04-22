@@ -193,13 +193,13 @@ remote changes: `$ git pull --rebase`
 
 	`git branch dev`
 
-- checkout the "dev" branch 
+- go to the "dev" branch (get checkout used in older versions of git pre 2.2.3)
 
-	`git checkout dev`
+	`git checkout dev` or `git switch dev`
 
 - create and move to branch "dev"
   
-	`git checkout -b dev`
+	`git checkout -b dev` or `git switch -b dev`
 
 Get the latest info from remote repo without merging anything locally. Then, list all remote branches. Finally, checkout the remote branch that you want to test locally.
 
@@ -214,6 +214,19 @@ Get the latest info from remote repo without merging anything locally. Then, lis
 - Check out a remote branch
 
 	`git checkout -b my-local-branch origin/remote-branch`
+
+- checkout specic tag
+
+  	`git checkout v1.0.1`
+
+- Check out a specific commit
+
+	`git checkout <commit-hash>`
+
+- restore a specific file to previous state or state from a specific commit
+
+  	`git checkout -- <file>`
+  	`git checkout <commit-hash> -- file`
 
 ## Merging 
 
