@@ -201,19 +201,19 @@ remote changes: `$ git pull --rebase`
   
 	`git checkout -b dev` or `git switch -b dev`
 
-Get the latest info from remote repo without merging anything locally. Then, list all remote branches. Finally, checkout the remote branch that you want to test locally.
+- Get the latest info from remote repo without merging anything locally. Then, list all remote branches. Finally, checkout the remote branch that you want to test locally.
 
-- Fetch the latest remote data
+	- Fetch the latest remote data
 
-  	`git fetch origin`
+  		`git fetch origin`
   
-- List all remote branches
+	- List all remote branches
 
-	`git branch --remote`
+		`git branch --remote`
 
-- Check out a remote branch
+	- Check out a remote branch
 
-	`git checkout -b my-local-branch origin/remote-branch`
+		`git checkout -b my-local-branch origin/remote-branch`
 
 - checkout specic tag
 
